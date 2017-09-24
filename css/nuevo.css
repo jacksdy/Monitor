@@ -1,0 +1,27 @@
+
+* {
+  margin:  0;
+  padding: 0;
+}
+
+body {
+	color: #838383;
+	font: 13px/1.7em 'Arial';
+}
+.center {
+    margin-left: 50px;
+    margin-right: auto;
+    display: block;
+}
+.panel-body {
+	background:#F5F5F5;
+}
+
+#panelfooter{
+	color: white;
+	font-weight: bold
+	
+}
+.panel-footer{
+	background:black;
+}

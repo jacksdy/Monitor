@@ -1,0 +1,249 @@
+
+
+SNGCV (Producción)
+url publica
+https://200.11.150.114:8080/SNGCV/ "Necesita Certificado"
+
+beretta/beretta
+
+https://172.31.0.22:8080/SNGCV/
+  			
+DESARROLLO 
+bd ora
+
+172.31.4.120)(PORT = 1521))
+
+SNGA
+  ip servidores
+  172.31.0.87
+
+
+SVN
+  https://192.168.200.100/svn/sga	
+
+bd ora
+  sga / sga
+
+HOST = scanrac01corp.dgti.cne.gob.ve)(PORT = 1521
+
+DESARROLLO
+  sga/sga
+
+HOST = 172.31.4.120)(PORT = 1521
+(SERVICE_NAME = SNGCVDES.dgti.cne.gob.ve)
+
+
+SCORE
+
+ip servidores
+192.168.200.34
+
+(bd mysql)
+score/$C0ns4It@R3.#My
+
+clave actual
+score/$C0ns4It@R3.#0r@
+
+mysql -h 172.31.0.90 -u score -p
+
+ip 172.31.0.90
+puerto 3306
+sid= score
+
+(bd ora)
+score/$C0ns4It@R3.#0r@
+
+clave actual 
+Sc0r3.
+
+HOST = 192.168.99.6)(PORT = 1527))
+SERVICE_NAME = AVCREPDE)
+
+SITH
+
+jboss/jboss
+
+ip 172.31.26.86
+ip ssh 172.31.0.86
+
+bd ora
+sirehpub/sirehpub
+
+clave actual
+sirehpub
+
+HOST = 172.17.3.17)(PORT = 1521
+SERVICE_NAME = KERUX)
+    )
+  )
+
+DESARROLLO
+bd ora
+
+sirehpub/sirehpub
+
+clave actual
+sirehpub
+
+SIREHPUB =
+HOST = 172.17.3.17)(PORT = 1521
+SERVICE_NAME = KERUX
+
+Jasper
+
+sistemas/sistemas123
+
+ip 172.31.0.117 / 172.31.4.117
+
+SERV. APLICACIONES
+sirehpub/sirehpub
+ip 172.31.0.117 / 172.31.4.117
+
+
+RECLAMOS
+
+DESARROLLO
+desarrollo/desarrollo
+Ip servidor
+192.168.200.253
+
+URL Monitor
+https://192.168.200.253/sism/monitor.php
+
+(WS)
+
+desarrollo/123456
+Ip Servidor
+192.168.200.252
+
+Consumir WS
+http://192.168.200.252:7001/CNEServices/DatosService?nac=V&cedula=13096290
+
+http://172.31.0.56/wsDirecciones/?n=V&c=11490268
+
+Consola
+http://192.168.200.252:7001/console/login/LoginForm.jsp
+
+bd ora
+wscon/ws2011cne
+
+avcrepde =
+  (DESCRIPTION =
+    (ADDRESS_LIST =
+      (ADDRESS = (PROTOCOL = TCP)(HOST = 192.168.99.6)(PORT = 1527))
+    )
+    (CONNECT_DATA =
+      (SID = avcrepde)
+      (SERVER = DEDICATED)
+    )
+  ) 
+
+
+vistas
+TRANSACCIONES_SAIME_VIEW
+MOV_EXITO_VIEW
+AC_VIEW
+
+KERUX
+bd ora
+(PRODUCCION)
+
+fdel/fdel105
+KERUX = 
+  (DESCRIPTION =
+    (ADDRESS_LIST =
+      (ADDRESS = (PROTOCOL = TCP)(HOST = 172.17.3.17)(PORT = 1521))
+    )
+    (CONNECT_DATA =
+      (SERVICE_NAME = kerux)
+      (SRVR = DEDICATED)
+    )
+  )
+
+
+
+kerux/
+
+Mapeo, usuario kerux, clave en blanco
+
+\\172.17.3.17\kerux\kerux
+
+DESARROLLO
+
+	/ SGqZmsVCiRu9h8tUidqj
+
+KERDES = 
+  (DESCRIPTION =
+    (ADDRESS_LIST =
+      (ADDRESS = (PROTOCOL = TCP)(HOST = 172.17.3.18)(PORT = 1521))
+    )
+    (CONNECT_DATA =
+      (SERVICE_NAME = kerux)
+      (SRVR = DEDICATED)
+    )
+  )
+
+
+re
+bd ora
+re/123456
+
+avcrepde =
+  (DESCRIPTION =
+    (ADDRESS_LIST =
+      (ADDRESS = (PROTOCOL = TCP)(HOST = 192.168.99.6)(PORT = 1527))
+    )
+    (CONNECT_DATA =
+      (SID = avcrepde)
+      (SERVER = DEDICATED)
+    )
+  ) 
+
+
+Escritorio-Remoto
+
+Administrador/123456
+192.168.99.11
+
+SIREH
+http://200.11.228.26/race/
+
+
+SIG
+bd pgsql
+  / 12qwaszx
+
+RCivil
+superourcqa@gmail.com
+
+Vista Pública
+superourcqa@gmail.com/123456789
+
+http://10.31.192.108:8887/vistaprivada/login
+
+
+KOHA
+
+koha/koha2012$$
+
+IP 192.168.200.48
+
+ echo $KOHA_CONF
+/usr/sbin/service zebradb start
+
+ tail /var/log/messages
+
+bd mysql
+koha_cne / ahsaelee
+
+ <db_scheme>mysql</db_scheme>
+ <database>koha_cne</database>
+ <hostname>localhost</hostname>
+ <port>3306</port>
+
+meteoro/m3t30r05
+
+GIT
+sistemas/53BDhzDm
+git.ti.cne.gob.ve
+10.31.240.209
